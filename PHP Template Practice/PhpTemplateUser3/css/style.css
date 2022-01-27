@@ -1,0 +1,336 @@
+/* General Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:none;
+        
+}
+
+ol, ul {
+	list-style-type:none;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+	line-height:100%;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+q:before, q:after {
+	content:"";
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+        border: navajowhite;
+        
+}
+
+input, textarea, select {
+	font:12px Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	padding:0;
+	margin:0;
+}
+
+textarea {
+	overflow:auto;
+	resize:none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:20px;
+	color:#474632;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#999d8f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+h1 {
+	font-size:33px;
+	margin-bottom:20px;
+}
+
+h2 {
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+h3 {
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+h4 {
+	font-size:16px;
+	margin-bottom:15px;
+}
+
+h5 {
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+h6 {
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+	/*  links
+	******************************/
+	a {color: #4F3110;text-decoration: underline;}
+	a:hover {color: #4F3110;text-decoration: none;}
+
+	/*  superscript and subscript
+	******************************/
+	sup, sub {vertical-align: baseline;position: relative;top: -0.4em;}
+	sub { top: 0.4em; }
+	
+	/*  lists
+	******************************/
+	ul, ol {padding:0;margin:0;}
+	ul li {list-style-type:disc;}
+	ol li {list-style-type:decimal;}
+	ul li,
+	ol li {font-size: 12px; line-height: 16px;margin: 0 0 10px 15px;}
+
+	/*  tables
+	******************************/
+	table,th,td {border:1px solid #AAAAAA;}
+	th {padding:3px; font-weight:bold;color:#344b3b;}
+	tr {margin:0 0 5px 0;padding:3px;}
+	td {padding:5px;margin:0 1px;}
+	
+	/*  horizontal lines
+	******************************/
+	hr {border-bottom: 1px solid #afb6a6;margin:20px 0;padding:0;height:2px;width:100%; margin-bottom:10px;}
+
+.clear {
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.copyright {
+	border: 0px;
+	height: 1px;
+	width: 1px;
+}
+
+#wrapper {
+	width:1000px;
+	margin:0 auto;
+	padding:10px 0 10px 0;
+}
+
+/*----start header----*/
+#header {
+	padding:0px;
+}
+
+#header .banner_img{
+	background:url(../images/programming_banner2.jpg) no-repeat left top;
+	height:177px;
+	padding:90px 95px 0 95px;
+	-webkit-border-radius: 5px 5px 0px 0px;-moz-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px;
+}
+
+#header h1{
+	font-size:32px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFFFFF;
+	margin:0px;
+	padding:0px 0px 10px;
+}
+
+#header h1 a {
+	color:#daddd6;
+	text-decoration: none;
+}
+
+#header h1 a:hover {
+	text-decoration: none;
+}
+
+#header p{
+	font-size:16px;
+	margin-left:1px;
+	color:#daddd6;
+}
+
+.navigation{
+	border-bottom:#adb1b2 solid 1px;
+	padding:15px 5px;
+	background: #282924;
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
+
+.navigation ul li{
+	margin:0px;
+	padding:0px 35px;
+	display:inline;
+	font-size:15px;
+	list-style-type:none;
+	border-right:#b2b3ad dotted 1px;
+}
+
+.navigation ul li a{
+	color:#d9dfd1;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover{
+	text-decoration:underline;
+}
+
+.navigation ul li:last-child {
+	border-right:none;
+}
+/*----end header----*/
+
+
+/*----start page content----*/
+#page_content{
+	background-color:#dae1d1;
+	padding:10px;
+}
+
+#page_content .left_section{
+	background-color:#dae1d1;
+	padding:15px;
+	width:740px;
+	float:left;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	-moz-box-shadow: 0 0 3px 3px #d3daca;
+	-webkit-box-shadow: 0 0 3px 3px#d3daca;
+	box-shadow: 0 0 3px 3px #d3daca;
+}
+
+#page_content .left_section .top_content{
+	padding:0 0 15px 0;
+	border-bottom:#a2a999 solid 1px;
+	margin-bottom:20px;
+}
+
+#page_content .left_section .top_content .column_one{
+	width:350px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#page_content .left_section .top_content .column_two{
+	width:350px;
+	float:right;
+	margin-bottom:20px;
+}
+
+a.btn{
+	color:#20251f;
+	font-size:12px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	text-decoration:none;
+	padding:7px 8px 7px 8px;
+	font-weight:bold;
+	display:inline-block;
+	border:#929989 solid 1px;
+}
+
+a.btn:hover{
+	text-decoration:underline;
+}
+
+.common_content{
+	padding:0 0 20px 0;
+}
+
+.border_none{
+	border:none!important;
+	margin:0px!important;
+}
+
+.right_side_bar{
+	width:190px;
+	margin-top:10px;
+	float:right;
+}
+
+.right_side_bar h1{
+	font-size:20px;
+	padding:0 0 0 25px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-bottom:10px;
+	background:url(../images/star.png) no-repeat left center;
+}
+
+.right_side_bar .col_1{
+	padding:20px 0 0 0;
+}
+
+.right_side_bar .col_1 .box{
+	background-color:#c8d2b9;
+	padding:10px 12px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+}
+
+.right_side_bar .col_1 .box ul{
+	margin:0px;
+	padding:0px;
+}
+
+.right_side_bar .col_1 .box ul li{
+	margin:0px 0px 8px;
+	padding:0px 0px 0px 15px;
+	font-size:12px;
+	list-style-type:none;
+	background:url(../images/li.png) no-repeat left center;
+}
+
+.right_side_bar .col_1 .box ul li a{
+	color:#283d2c;
+	text-decoration:underline;
+}
+
+.right_side_bar .col_1 .box ul li a:hover{
+	color:#283d2c;
+	text-decoration:none;
+}
+/*----end page content----*/
+
+
+/*----start footer content----*/
+#footer{
+	clear:both;
+	padding:20px 0 20px 0;
+	height:20px;
+	font-weight:bold;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	background-color:#c7d1b8;
+	-webkit-border-radius: 0px 0px 5px 5px;-moz-border-radius: 0px 0px 5px 5px;border-radius: 0px 0px 5px 5px;
+}
+/*----end footer content----*/

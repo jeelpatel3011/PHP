@@ -1,0 +1,72 @@
+
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            tr, td {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+     
+        <form method="post" action="process.php">
+        <table border='0'>
+            <tr>
+                <td>Name</td>
+                <td><input title="Enter Your Name" type="text" name="txt1" placeholder="Enter Your Name" required></td>
+            </tr>
+            
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" placeholder="Enter Email" required></td>
+            </tr>    
+            
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="txt2" value="male" required>Male
+                    <input type="radio" name="txt2" value="male">Female
+                </td>
+            </tr>
+
+
+            <tr><td>Language</td>
+                <td><input type="checkbox" name="language" value="HTML" title="Hypertext Markup Language">HTML
+                    <input type="checkbox" name="language" value="CSS" title="Cascading Style Sheet">CSS
+                    <input type="checkbox" name="language" value="PHP" title="Hypertext Preprocessor">PHP</td>    
+            </tr>
+            
+            <tr>
+                <td>Location</td>
+                <td>
+                    <select name="location">
+                        <option selected disabled>Choose Location</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Gandhinagar">Gandhinagar</option>
+                        <option value="Surat">Surat</option>
+                    </select>
+                </td>    
+            </tr>
+            
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" required placeholder="Create a new password"></td>
+            </tr>
+            
+            <tr>
+                <td>Feedback</td>
+                <td><textarea name="txtarea" cols="50" rows="4" placeholder="Write feedback here..."></textarea> </td>
+            </tr>   
+            <tr>
+                <td>Location</td>
+                <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.759256728058!2d72.56298051471293!3d23.032609984947968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f67844dd69%3A0xe2a1d5031fdf4653!2sAkash%20Technolabs!5e0!3m2!1sen!2sin!4v1642750664689!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit">
+                <input type="reset" name="reset" value="Reset"></td>
+            </tr>            
+         </table> 
+        </form>
+    </body>
+</html>
