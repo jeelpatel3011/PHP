@@ -20,7 +20,7 @@ include './elements/sidebar.php';
     <div class="left_section">
       <div class="common_content">
         <h2>Contact Us</h2>
-        <form method="post" >
+        <form method="post" action="mail.php">
                     <table>
                         <tr>
                             <td>Name</td>
@@ -28,15 +28,15 @@ include './elements/sidebar.php';
                         </tr>
 
                         <tr>
-                            <td>Email</td>
-                            <td><input type="email" name="email" placeholder="Enter Email" required></td>
+                            <td>Mobile No</td>
+                            <td><input type="number" name="mobile" placeholder="Enter Mobile No" required></td>
                         </tr>    
 
                       
 
                         <tr>
                             <td>Message</td>
-                            <td><textarea name="txtarea" cols="50" rows="4" placeholder="Write your message/query here..."></textarea> </td>
+                            <td><textarea name="msg" cols="50" rows="4" placeholder="Write your message/query here..."></textarea> </td>
                         </tr>   
 
                         <tr>
